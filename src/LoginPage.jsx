@@ -53,9 +53,9 @@ export default function LoginPage({ onLogin }) {
           <button className={styles.btn} type="submit">Sign In →</button>
         </form>
 
-        <div className={styles.hint}>
+        {/* <div className={styles.hint}>
           <strong>Demo:</strong> admin / password123 &nbsp;|&nbsp; employee / emp123
-        </div>
+        </div> */}
       </div>
     </div>
   )
