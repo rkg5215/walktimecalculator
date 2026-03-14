@@ -1,0 +1,30 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg: #0a0f1e;
+  --card: #111827;
+  --card2: #0f172a;
+  --border: #1e293b;
+  --accent: #22c55e;
+  --accent2: #16a34a;
+  --text: #f1f5f9;
+  --muted: #64748b;
+  --red: #ef4444;
+  --yellow: #f59e0b;
+  --blue: #63b3ed;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+  filter: invert(0.5);
+  cursor: pointer;
+}
